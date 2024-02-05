@@ -1,0 +1,51 @@
+on:
+  push:
+    branches:
+      - main
+
+name: release-please
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: yarn
+          cache-dependency-path: yarn.lock
+      - run: yarn install --frozen-lockfile
+      - run: yarn run lint
+      - run: yarn run build
+
+  release-please:
+    permissions:
+      contents: write
+      pull-requests: write
+    needs: build-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: node
+
+  publish:
+    needs: release-please
+    if: needs.release-please.outputs.release_created == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: yarn
+          cache-dependency-path: yarn.lock
+      - run: yarn install --frozen-lockfile
+      - run: yarn run build
+      - run: yarn npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
