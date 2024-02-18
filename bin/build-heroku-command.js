@@ -12,6 +12,5 @@ const execAsync = util.promisify(node_child_process_1.exec)
   local: true,
   // eslint-disable-next-line unicorn/prefer-top-level-await
 }).then(async (path) => {
-  console.log(path)
   await execAsync(`cd ${path} && yarn build || true`)
 })

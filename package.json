@@ -65,10 +65,10 @@
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
-    "prepare": "yarn build",
+    "prepare": "yarn run build-heroku-command && yarn build",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
-    "postinstall": "node ./bin/build-heroku-command.js || true"
+    "build-heroku-command": "node ./bin/build-heroku-command.js || true"
   },
   "version": "1.0.3",
   "bugs": "https://github.com/lancedikson/heroku-env-lookup/issues",
