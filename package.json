@@ -73,5 +73,9 @@
   "keywords": [
     "oclif"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "funding": {
+    "type": "individual",
+    "url": "https://humblethoughts.net/heroku-env-lookup-plugin/"
+  }
 }
