@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.5...v1.1.0) (2024-02-18)
+
+
+### Features
+
+* **env-lookup:** lowercase the compared strings ([a42ab20](https://github.com/lancedikson/heroku-env-lookup/commit/a42ab205e3d465937841074ce3c870f1b41eef59))
+* **package:** remove hacks for heroku-cli/command ([6a905cb](https://github.com/lancedikson/heroku-env-lookup/commit/6a905cba2681ad6856692a0d4b3abd4c8c39fd5e))
+
 ## [1.0.5](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.4...v1.0.5) (2024-02-18)
 
 
