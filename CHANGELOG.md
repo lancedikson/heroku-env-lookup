@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.2...v1.0.3) (2024-02-18)
+
+
+### Bug Fixes
+
+* **actions:** fixing package publication ([2445873](https://github.com/lancedikson/heroku-env-lookup/commit/24458736c8497ebfedf9689c4992138158a9945b))
+
 ## [1.0.2](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.1...v1.0.2) (2024-02-18)
 
 
