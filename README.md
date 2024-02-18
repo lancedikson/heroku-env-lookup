@@ -22,7 +22,7 @@ $ npm install -g heroku-env-lookup
 $ heroku-env-lookup COMMAND
 running command...
 $ heroku-env-lookup (--version)
-heroku-env-lookup/0.0.0 darwin-arm64 node-v18.17.0
+heroku-env-lookup/1.0.0 darwin-arm64 node-v18.17.0
 $ heroku-env-lookup --help [COMMAND]
 USAGE
   $ heroku-env-lookup COMMAND
@@ -66,7 +66,7 @@ EXAMPLES
   $ heroku-env-lookup env-lookup LOOKUP_STRING
 ```
 
-_See code: [src/commands/env-lookup.ts](https://github.com/lancedikson/heroku-env-lookup/blob/v0.0.0/src/commands/env-lookup.ts)_
+_See code: [src/commands/env-lookup.ts](https://github.com/lancedikson/heroku-env-lookup/blob/v1.0.0/src/commands/env-lookup.ts)_
 
 ## `heroku-env-lookup help [COMMANDS]`
 
