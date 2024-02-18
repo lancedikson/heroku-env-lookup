@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.3...v1.0.4) (2024-02-18)
+
+
+### Bug Fixes
+
+* **package:** fixing package preparations when installed ([cb3d34c](https://github.com/lancedikson/heroku-env-lookup/commit/cb3d34c5e7b27719b1f5d6a121565aa0668bc22f))
+
 ## [1.0.3](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.2...v1.0.3) (2024-02-18)
 
 
