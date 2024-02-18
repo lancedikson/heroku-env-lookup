@@ -41,7 +41,7 @@
     "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/lancedikson/heroku-env-lookup",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE FILE",
   "main": "dist/index.js",
   "name": "heroku-env-lookup",
   "oclif": {
