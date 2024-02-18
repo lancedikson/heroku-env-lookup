@@ -68,7 +68,11 @@ export default class EnvLookup extends Command {
     for await (const app of apps) {
       ux.action.start(`fetching vars`, `${app.name}`)
       const {body: appVars} = await this.heroku.get<Heroku.ConfigVars>(`/apps/${app.id}/config-vars`)
-      const foundVarMatches = Object.entries(appVars).filter(([_, v]) => v.includes(args.lookupString))
+      const foundVarMatches = Object.entries(appVars).filter(
+        ([k, v]) =>
+          v.toLowerCase().includes(args.lookupString.toLowerCase()) ||
+          k.toLowerCase().includes(args.lookupString.toLowerCase()),
+      )
       if (foundVarMatches.length > 0) {
         foundApps.push({app, matches: foundVarMatches})
       }
