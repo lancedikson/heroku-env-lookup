@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/lancedikson/heroku-env-lookup/compare/v1.1.0...v1.1.1) (2024-02-18)
+
+
+### Bug Fixes
+
+* **package:** added funding options ([aac5350](https://github.com/lancedikson/heroku-env-lookup/commit/aac5350b8d821a0f80cce9c7cfe5a606fb62aeb6))
+
 ## [1.1.0](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.5...v1.1.0) (2024-02-18)
 
 
