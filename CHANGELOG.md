@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.5](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.4...v1.0.5) (2024-02-18)
+
+
+### Bug Fixes
+
+* **package:** fixing heroku-cli/command dependency ([9cab6be](https://github.com/lancedikson/heroku-env-lookup/commit/9cab6bebd1aa1b5b480e11db75d087c7cffd8794))
+* **package:** fixing package license metadata ([91f24de](https://github.com/lancedikson/heroku-env-lookup/commit/91f24de8b697b5b084d685f78567baff7ba8e939))
+
 ## [1.0.4](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.3...v1.0.4) (2024-02-18)
 
 

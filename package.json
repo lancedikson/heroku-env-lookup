@@ -69,7 +69,7 @@
     "version": "oclif readme && git add README.md",
     "build-heroku-command": "node ./bin/build-heroku-command.js || true"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bugs": "https://github.com/lancedikson/heroku-env-lookup/issues",
   "keywords": [
     "oclif"
