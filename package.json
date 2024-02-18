@@ -8,7 +8,9 @@
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^4",
-    "axios": "^1.6.7"
+    "@types/get-installed-path": "^4.0.3",
+    "axios": "^1.6.7",
+    "get-installed-path": "^4.0.8"
   },
   "description": "Heroku ENV Variable Lookup Plugin",
   "devDependencies": {
@@ -66,7 +68,7 @@
     "prepare": "yarn build",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
-    "postinstall": "cd node_modules/@heroku-cli/command && npm run build || true"
+    "postinstall": "node ./dist/helpers/installation-helper.js || true"
   },
   "version": "1.0.0",
   "bugs": "https://github.com/lancedikson/heroku-env-lookup/issues",
