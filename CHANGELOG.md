@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/lancedikson/heroku-env-lookup/compare/v1.0.0...v1.0.1) (2024-02-18)
+
+
+### Bug Fixes
+
+* **package:** fixed package prebuild ([2cb3cc1](https://github.com/lancedikson/heroku-env-lookup/commit/2cb3cc1368ba0d39c59ebe9c940e30e9594c619c))
+
 ## 1.0.0 (2024-02-18)
 
 
