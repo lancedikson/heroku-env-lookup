@@ -48,6 +48,6 @@ jobs:
           always-auth: true
       - run: yarn install --frozen-lockfile
       - run: yarn run build
-      - run: yarn npm publish --access public
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
