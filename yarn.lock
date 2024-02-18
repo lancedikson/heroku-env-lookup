@@ -1070,12 +1070,11 @@
     supports-color "^5.5.0"
     tslib "^1.9.3"
 
-"@heroku-cli/command@heroku/heroku-cli-command#upgrade-to-oclif-core-v3":
+"@heroku-cli/command@heroku/heroku-cli-command#rd/upgrade-to-oclif-core-v3":
   version "10.0.0"
-  resolved "https://codeload.github.com/heroku/heroku-cli-command/tar.gz/90729b063b4e533c086f2542c1b78d04f80f045b"
+  resolved "https://codeload.github.com/heroku/heroku-cli-command/tar.gz/d2eb620ddd1a4e4adb4d7dd047fefd4f7c207149"
   dependencies:
     "@heroku-cli/color" "^1.1.14"
-    "@oclif/core" "^3.3.3-dev.0"
     cli-ux "^6.0.9"
     debug "^4.1.1"
     fs-extra "^7.0.1"
@@ -1513,7 +1512,7 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3", "@oclif/core@^3.10.2", "@oclif/core@^3.16.0", "@oclif/core@^3.18.1", "@oclif/core@^3.3.3-dev.0":
+"@oclif/core@^3", "@oclif/core@^3.10.2", "@oclif/core@^3.16.0", "@oclif/core@^3.18.1":
   version "3.18.2"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.18.2.tgz#3c665ad65d0d5c752a6deb91c4ef60330094625c"
   integrity sha512-gfWxCS7dTNzdtvlBEEPUXJj+znzDMjSHfgTIx2IuQ9O3JPxWBrlOj9rgyNxyulVWVKKkuwFFkM4NZA+yiKA9ow==

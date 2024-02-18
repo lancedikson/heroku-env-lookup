@@ -4,7 +4,7 @@
     "heroku-env-lookup": "./bin/run.js"
   },
   "dependencies": {
-    "@heroku-cli/command": "heroku/heroku-cli-command#upgrade-to-oclif-core-v3",
+    "@heroku-cli/command": "heroku/heroku-cli-command#rd/upgrade-to-oclif-core-v3",
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^4",
@@ -65,7 +65,6 @@
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
-    "prepare": "yarn run build-heroku-command && yarn build",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
     "build-heroku-command": "node ./bin/build-heroku-command.js || true"
