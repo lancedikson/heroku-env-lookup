@@ -71,6 +71,12 @@
   "version": "1.1.1",
   "bugs": "https://github.com/lancedikson/heroku-env-lookup/issues",
   "keywords": [
+    "heroku",
+    "heroku-plugin",
+    "plugin",
+    "environment",
+    "lookup",
+    "search",
     "oclif"
   ],
   "types": "dist/index.d.ts",
