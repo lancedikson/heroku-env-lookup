@@ -23,20 +23,20 @@ jobs:
       - run: yarn run build
 
   release-please:
-    permissions:
-      contents: write
-      pull-requests: write
     needs: build-check
+    outputs:
+      release_created: steps.release.outputs.release_created
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v4
+        id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
 
   publish:
     needs: release-please
-    if: needs.release-please.outputs.release_created == 'true'
+    if: needs.release-please.outputs.release_created
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
