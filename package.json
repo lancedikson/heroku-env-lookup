@@ -47,7 +47,8 @@
     "dirname": "heroku-env-lookup",
     "commands": "./dist/commands",
     "plugins": [
-      "@oclif/plugin-help"],
+      "@oclif/plugin-help"
+    ],
     "topicSeparator": " ",
     "topics": {
       "env-lookup": {
@@ -67,7 +68,7 @@
     "version": "oclif readme && git add README.md",
     "postinstall": "cd node_modules/@heroku-cli/command && npm run build || true"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "bugs": "https://github.com/lancedikson/heroku-env-lookup/issues",
   "keywords": [
     "oclif"
