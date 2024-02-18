@@ -44,6 +44,7 @@ jobs:
         with:
           cache: yarn
           cache-dependency-path: yarn.lock
+          registry-url: 'https://registry.npmjs.org'
       - run: yarn install --frozen-lockfile
       - run: yarn run build
       - run: yarn npm publish --access public
