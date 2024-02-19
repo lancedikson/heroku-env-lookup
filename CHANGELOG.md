@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/lancedikson/heroku-env-lookup/compare/v1.1.1...v1.1.2) (2024-02-19)
+
+
+### Bug Fixes
+
+* **package:** added extra keywords ([d874498](https://github.com/lancedikson/heroku-env-lookup/commit/d8744987a0f7da8b3f55921f8d817c7ae11e7717))
+* **readme:** added gifs ([da8b09d](https://github.com/lancedikson/heroku-env-lookup/commit/da8b09dd3741246a850c86484e704ed5adb24c3e))
+
 ## [1.1.1](https://github.com/lancedikson/heroku-env-lookup/compare/v1.1.0...v1.1.1) (2024-02-18)
 
 
