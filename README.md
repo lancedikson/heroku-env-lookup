@@ -30,6 +30,9 @@ USAGE
 ```
 <!-- usagestop -->
 
+![installation](https://images.humblethoughts.net/2024/01/demo1.gif)
+![installation](https://images.humblethoughts.net/2024/01/demo2.gif)
+
 # Commands
 
 <!-- commands -->
