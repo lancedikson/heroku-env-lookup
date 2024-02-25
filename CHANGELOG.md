@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.3](https://github.com/lancedikson/heroku-env-lookup/compare/v1.1.2...v1.1.3) (2024-02-25)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-plugins from 4.2.1 to 4.2.5 ([b4cf62f](https://github.com/lancedikson/heroku-env-lookup/commit/b4cf62f1aaaa7434170c69bfa6bc7727b692316d))
+* **deps:** bump ip from 2.0.0 to 2.0.1 ([0d388f0](https://github.com/lancedikson/heroku-env-lookup/commit/0d388f0f0b97dfbc4d4f8c9f9b1139605b0550a7))
+
 ## [1.1.2](https://github.com/lancedikson/heroku-env-lookup/compare/v1.1.1...v1.1.2) (2024-02-19)
 
 
