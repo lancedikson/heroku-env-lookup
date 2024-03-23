@@ -4,7 +4,7 @@
     "heroku-env-lookup": "./bin/run.js"
   },
   "dependencies": {
-    "@heroku-cli/command": "heroku/heroku-cli-command#d2eb620ddd1a4e4adb4d7dd047fefd4f7c207149",
+    "@heroku-cli/command": "heroku/heroku-cli-command#0bf1b7b2185b1072f90294df8848269a25404880",
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^4",
