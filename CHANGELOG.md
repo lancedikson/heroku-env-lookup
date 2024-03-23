@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.4](https://github.com/lancedikson/heroku-env-lookup/compare/v1.1.3...v1.1.4) (2024-03-23)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-help from 6.0.12 to 6.0.14 ([1d2f5bd](https://github.com/lancedikson/heroku-env-lookup/commit/1d2f5bd831c2bca9a2892b62e473ebaf93328e2c))
+* **deps:** bump @oclif/plugin-plugins from 4.2.5 to 4.3.8 ([8997252](https://github.com/lancedikson/heroku-env-lookup/commit/89972524a931179380a8d7ceaa7c0ca1f0d0c68b))
+* **deps:** bump follow-redirects from 1.15.5 to 1.15.6 ([8135ddd](https://github.com/lancedikson/heroku-env-lookup/commit/8135ddde7fe19008a91c48b39abd68bbc1744a5a))
+* **deps:** update dependency @oclif/plugin-help to v6.0.18 ([43aaf3c](https://github.com/lancedikson/heroku-env-lookup/commit/43aaf3c0f205294907aced606e0319380dd91d76))
+* **deps:** update dependency axios to v1.6.8 ([b078fca](https://github.com/lancedikson/heroku-env-lookup/commit/b078fca1b878c087a98e0f500da3670d652fc994))
+
 ## [1.1.3](https://github.com/lancedikson/heroku-env-lookup/compare/v1.1.2...v1.1.3) (2024-02-25)
 
 
