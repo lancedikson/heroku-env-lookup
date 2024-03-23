@@ -4,7 +4,7 @@
     "heroku-env-lookup": "./bin/run.js"
   },
   "dependencies": {
-    "@heroku-cli/command": "heroku/heroku-cli-command#rd/upgrade-to-oclif-core-v3",
+    "@heroku-cli/command": "heroku/heroku-cli-command#d2eb620ddd1a4e4adb4d7dd047fefd4f7c207149",
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^4",
@@ -22,7 +22,7 @@
     "@types/node": "^18",
     "chai": "^4",
     "eslint": "^8.56.0",
-    "eslint-config-oclif": "^5",
+    "eslint-config-oclif": "~5.0",
     "eslint-config-oclif-typescript": "^3",
     "eslint-config-prettier": "^9.1.0",
     "mocha": "^10",
